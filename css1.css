@@ -41,7 +41,8 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
   }
 
   #content { 
-	font-size: 1em;
+	line-height:110%;
+	font-size: .9em;
 	font-family:
 	Verdana,Tahoma,sans-serif;
     position: absolute; 
@@ -53,7 +54,8 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
   }
 
   #box1 { 
-  	font-size: 1em;
+	line-height:110%;
+  	font-size: .9em;
 	font-family:
 	Verdana,Tahoma,sans-serif;
     background:#D5DAF0;
@@ -114,7 +116,8 @@ table {
 html, body, #container { height: 125%; }
 body > #container { height: auto; min-height: 100%; }
 #footer {
- font-size: 1em;
+ line-height:110%;
+ font-size: .9em;
  font-family:
  Verdana,Tahoma,sans-serif;
  clear: both;
