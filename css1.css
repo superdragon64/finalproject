@@ -1,5 +1,7 @@
 a:link {color:#363755;}
 a:hover {color:#BD061C;}
+a.black:hover
+{color:black;}
 p
 {
 font-family:
@@ -47,7 +49,7 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
 	Verdana,Tahoma,sans-serif;
     position: absolute; 
     top:125px; 
-    bottom:-200px; 
+    bottom:-230px; 
     left:0;
     width:100%;
     background:#EEF2FE; 
