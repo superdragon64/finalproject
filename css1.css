@@ -5,7 +5,8 @@ p
 font-family:
 Verdana,Tahoma,sans-serif;
 font-size:
-10;
+3em;
+margin-left:1em;
 }
 div.title
 {font-family:Tahoma,sans-serif;
@@ -40,6 +41,9 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
   }
 
   #content { 
+	font-size: 1em;
+	font-family:
+	Verdana,Tahoma,sans-serif;
     position: absolute; 
     top:175px; 
     bottom:-600px; 
@@ -49,10 +53,14 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
   }
 
   #box1 { 
+  	font-size: 1em;
+	font-family:
+	Verdana,Tahoma,sans-serif;
     background:#D5DAF0;
     height:40%; 
     width:20%; 
     float:left; 
+	margin:.3em;
   }
   /* CSS RESET CODE */
   /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -106,6 +114,9 @@ table {
 html, body, #container { height: 125%; }
 body > #container { height: auto; min-height: 100%; }
 #footer {
+ font-size: 1em;
+ font-family:
+ Verdana,Tahoma,sans-serif;
  clear: both;
  position: relative;
  z-index: 10;
