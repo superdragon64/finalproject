@@ -17,7 +17,7 @@ margin-top:0px;
 }
   #header { 
     position:absolute; 
-    height: 175px; 
+    height: 125px; 
     left:0; 
     top:0; 
     width:100%; 
@@ -46,21 +46,22 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
 	font-family:
 	Verdana,Tahoma,sans-serif;
     position: absolute; 
-    top:175px; 
-    bottom:-600px; 
+    top:125px; 
+    bottom:-200px; 
     left:0;
     width:100%;
     background:#EEF2FE; 
   }
 
   #box1 { 
+    text-decoration:none;
 	line-height:110%;
-  	font-size: .9em;
+  	font-size: 1.25em;
 	font-family:
 	Verdana,Tahoma,sans-serif;
-    background:#D5DAF0;
-    height:40%; 
-    width:20%; 
+    background:#EEF2FE;
+    height:27%; 
+    width:15%; 
     float:left; 
 	margin:.3em;
   }
@@ -113,7 +114,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html, body, #container { height: 130%; }
+html, body, #container { height: 110%; }
 body > #container { height: auto; min-height: 100%; }
 #footer {
  line-height:110%;
