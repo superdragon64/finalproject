@@ -26,6 +26,7 @@ p.subsubtitle
  {
  font-size: 1.2em;
  margin-right:60px;
+ margin-left: 30px;
  text-indent:50px;
  line-height:110%
  }
@@ -94,6 +95,7 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
   }
 
   #content { 
+  
 	line-height:110%;
 	font-size: .9em;
 	font-family:
