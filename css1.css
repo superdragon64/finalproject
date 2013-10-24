@@ -94,9 +94,8 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
 	font-size: .9em;
 	font-family:
 	Verdana,Tahoma,sans-serif;
-    position: absolute; 
+    position: relative; 
     top:125px; 
-    bottom:-550px; 
     left:0;
     width:100%;
     background:#EEF2FE; 
@@ -109,7 +108,7 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
 	font-family:
 	Verdana,Tahoma,sans-serif;
     background:#EEF2FE;
-    height:27%; 
+    height:100px; 
     width:15%; 
     float:left; 
 	margin:.3em;
@@ -163,20 +162,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html, body, #container { height: 125%; }
-body > #container { height: auto; min-height: 100%; }
-#footer {
- line-height:110%;
- font-size: .9em;
- font-family:
- Verdana,Tahoma,sans-serif;
- clear: both;
- position: relative;
- z-index: 10;
- height: .5em;
- margin-top: .5em;
-}
-#wrap { padding-bottom: 3em; }
-#footer { background-color: #EEF2FE;
-text-align:center; }
-
+html, body, #container { height: 100%; }
+footer.center
+{text-align:center;}
