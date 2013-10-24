@@ -2,6 +2,10 @@ a:link {color:#363755;}
 a:hover {color:#BD061C;}
 a.black:hover
 {color:black;}
+body
+{
+background:#EEF2FE;
+}
 table.center
 { 
 margin-left: auto;
@@ -162,6 +166,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html, body, #container { height: 100%; }
+html, body,{ height: 100%; }
 footer.center
 {text-align:center;}
