@@ -45,7 +45,11 @@ p.subsubtitle
   font-size: 1.2em;
   line-height:110%
  }
- ul.margin
+ ul.marginalt
+ {
+ margin-left: 550px;
+ }
+  ul.margin
  {
  margin-left: 325px;
  }
@@ -53,6 +57,11 @@ img.floatleft
 {
 float:left;
 margin-left: 5px;
+}
+img.floatright
+{
+float:right;
+margin-right: 5px;
 }
 img.center
 {
@@ -112,7 +121,7 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
 	font-family:
 	Verdana,Tahoma,sans-serif;
     background:#EEF2FE;
-    height:100px; 
+    height:300px; 
     width:15%; 
     float:left; 
 	margin:.3em;
