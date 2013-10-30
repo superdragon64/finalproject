@@ -10,7 +10,12 @@ table.center
 { 
 margin-left: auto;
 margin-right: auto;
-font-size: 2em;
+ font-size: 1.2em;
+ line-height:110%;
+ font-family:
+Verdana,Tahoma,sans-serif;
+border-collapse:separate;
+border-spacing:10px 25px;
 }
 p.subtitle
 {
@@ -33,6 +38,7 @@ p.subsubtitle
  li.squareindent
  {
   margin-right:60px;
+   margin-left:60px;
  text-indent:30px;
  list-style-type:square;
   font-size: 1.2em;
@@ -52,6 +58,10 @@ p.subsubtitle
   ul.margin
  {
  margin-left: 325px;
+ }
+   ul.indent
+ {
+ margin-left: 15px;
  }
 img.floatleft
 {
@@ -122,6 +132,18 @@ background-image: linear-gradient(to bottom, #D7DBF6 0%, #EEF2FE 100%);
 	Verdana,Tahoma,sans-serif;
     background:#EEF2FE;
     height:300px; 
+    width:15%; 
+    float:left; 
+	margin:.3em;
+	}
+	  #box1stretch { 
+    text-decoration:none;
+	line-height:110%;
+  	font-size: 1.25em;
+	font-family:
+	Verdana,Tahoma,sans-serif;
+    background:#EEF2FE;
+    height:70%; 
     width:15%; 
     float:left; 
 	margin:.3em;
